@@ -7,6 +7,7 @@ import { AuthModule } from './auth/auth.module';
 import { UsersModule } from './users/users.module';
 import { AirlinesModule } from './airlines/airlines.module';
 import { FlightsModule } from './flights/flights.module';
+import { AeropuertoModule } from './aeropuerto/aeropuerto.module';
 
 @Module({
   imports: [
@@ -31,6 +32,7 @@ import { FlightsModule } from './flights/flights.module';
     UsersModule,
     AirlinesModule,
     FlightsModule,
+    AeropuertoModule,
   ],
   controllers: [AppController],
   providers: [AppService],
